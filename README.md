@@ -1,10 +1,10 @@
 # orgo
 
-Run [Claude Code](https://claude.com/claude-code) on [OpenRouter](https://openrouter.ai) and let it **pick the best value model for each task**.
+**Turn-key handoff from Claude to OpenRouter.** When your Claude plan runs out mid-project, type `orgo`: it picks up exactly where Claude left off and hands each remaining task to the right model on [OpenRouter](https://openrouter.ai), still inside [Claude Code](https://claude.com/claude-code).
 
 Type `orgo` in your terminal and it:
 
-1. 📋 Reads your project's `HANDOFF.md` (or asks you for tasks)
+1. 📋 Picks up where Claude left off: pulls the branch with the newest work and reads your project's `HANDOFF.md` (or asks you for tasks)
 2. 💸 Pulls live OpenRouter prices for every model that can run Claude Code
 3. 🧠 Checks current benchmarks and picks a model **per task**: a top model for hard work, a cheap one for easy work
 4. 🗺️ Shows you the plan and waits for your OK (you can swap any model)
